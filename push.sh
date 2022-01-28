@@ -6,4 +6,4 @@ message=$1
 # 更新 main
 git add .
 git commit -m "$message"
-git push -f git@github.com:hwang-db/docsify-db.git main
+git push origin main
