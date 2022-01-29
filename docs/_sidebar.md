@@ -2,5 +2,5 @@
 
 * [Home](/)
 * [Guide](guide.md)
-* [Terraform Notes](./Terraform_Notes/tf_lesson1.md)
+* [Terraform Notes](./Terraform_Notes/tf_basics.md)
 * [DB Notes](./Databricks_Notes/db_lesson1.md)
