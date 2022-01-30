@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 <!-- syntax: do not use xxx.md, just use the name of the markdown file-->
-- [Home](/)
 
 - **Terraform**
   - [Basics](./Terraform_Notes/tf_basics)

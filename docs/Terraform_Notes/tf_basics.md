@@ -7,3 +7,5 @@
 
 ### Resources to get started with Terraform
 Book: Terraform in action
+
+In a resource block, provisioner blocks are evaluated in sequence.
