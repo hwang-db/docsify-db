@@ -1,6 +1,10 @@
-# Headline
+# Welcome
 
-> An awesome project.
+This doc contains:
+> Field experience and learnings in Azure Databricks
 
+> Terraform learnings
 
-> test file
+> Azure tips and practices
+
+Link to main repositories: https://github.com/hwang-db
