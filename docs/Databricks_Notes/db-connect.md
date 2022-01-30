@@ -15,6 +15,13 @@ E.g. DBR 9.1 LTS is using python 3.
 Note that databricks-connect only supports certain versions of DBR runtime. 
 
 
+`test line`
+
+```python
+var add2 = function(number) {
+  return number + 2;
+}
+```
 
 ![alt text](../_media/dbconnect_dbr.png?raw=true)
 
