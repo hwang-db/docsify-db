@@ -11,8 +11,11 @@
   * [Local IDE support](./Databricks_Notes/startpage)
     * [db-connect](./Databricks_Notes/db-connect)
     * [intellij jar dev](./Databricks_Notes/intellij_jar)
+
   * [Databricks Patterns](./Databricks_Notes/startpage)
     * [Patterns](./Databricks_Notes/patterns)
+
+  * [Cost Related](./Databricks_Notes/azure_billing)
 
 **Docsify Tutorial**
   * [Setup](./Docsify_Notes/setup)
