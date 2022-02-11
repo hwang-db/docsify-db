@@ -5,7 +5,7 @@ Get Java SDK
 Get Anaconda (command line installation) + Pycharm
 After installation of conda, don’t let conda alter the shell starter script, instead, activate base env first by source xx/bin/activate -> then conda init zsh, this will let your shell auto enable conda base env every time the zsh terminal is run. 
 
-Make sure that databricks runtime is compatible with db-connect client library (7.3 LTS would be fine). Follow the instructions in the tutorial by Matt.
+Make sure that databricks runtime is compatible with db-connect client library (7.3 LTS would be fine).
 
 DBR 9.1 LTS example:
 

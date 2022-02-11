@@ -1,1 +1,3 @@
-local jar dev in intellij
+### Workflow demo: Develop spark application in IntelliJ, package as jar, run in databricks
+
+
