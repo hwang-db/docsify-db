@@ -15,7 +15,8 @@
   * [Databricks Patterns](./Databricks_Notes/startpage)
     * [Patterns](./Databricks_Notes/patterns)
 
-  * [Cost Related](./Databricks_Notes/azure_billing)
+  * [Cost Related](./Databricks_Notes/startpage)
+    * [DBU](./Databricks_Notes/azure_billing)
 
 **Docsify Tutorial**
   * [Setup](./Docsify_Notes/setup)

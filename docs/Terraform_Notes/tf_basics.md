@@ -146,3 +146,25 @@ terraform import [options] ADDRESS ID
 
 **ADDRESS** is the destination resource address where you want your resource to be imported (configuration must be present for this to work), and **ID** is the unique resource ID 
 ID is what you get from terraform state show resourceA -> the `id` attribute.
+
+
+### Exam review notes
+- Using workspaces, For local state, Terraform stores the workspace states in a directory called `terraform.tfstate.d`, for non-workspace scenario, stores in terraform.tfstate
+- Terraform has detailed logs which can be enabled by setting the TF_LOG environment variable to any value. This will cause detailed logs to appear on stderr. TRACE is the most verbose.
+- A Terraform configuration can refer to any module published in the registry. The syntax for specifying a registry module is <NAMESPACE>/<NAME>/<PROVIDER>
+- To refer to module's output, `module.servers.instance_ids`
+- Both the terraform get and terraform init commands will install and update modules
+- There is no Terraform binary for Unix. Terraform is available for macOS, FreeBSD, OpenBSD, Linux, Solaris, Windows.
+- Public module regitry requires code on Github, Github only.
+- `terraform plan` you notice that a resource has a tilde (~) next to it. What does this mean -> the resource will be updated in place
+- Provisioners should only be used as a last resort.
+- Module Version constraints are supported only for public / private module registry.
+- Clustering is the ONLY available in Terraform Enterprise.
+- A workspace can only be configured to a single VCS repo, however, multiple workspaces can use the same repo, if needed.
+- To create lists, use the [ and ] delimiters, replacing and deprecating the list () function.
+- Terraform Cloud can always encrypt state files at rest.
+- Published modules, have automatically generated documentations.
+- In order to use the terraform console command, the CLI must be able to lock state to prevent changes.
+- Single Sign On is only available in Terraform Cloud for business and Terraform Enterprise.
+- Sentinel runs before a configuration is applied, so potentially can save cloud costs.
+- Using remote backend, better to configure credentials outside terraform.
